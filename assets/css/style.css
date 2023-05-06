@@ -378,6 +378,10 @@ span {
 
 /* ----------- home css ---------- */
 
+.heaader-area {
+  z-index: 2;
+}
+
 .header-hero {
     position: relative;
     top: 0;
@@ -887,6 +891,7 @@ span {
 .download-area {
     overflow: hidden;
     background-color: #000000;
+    z-index: 1;
 }
 
 .download-area .download-image .download-shape-1 {
