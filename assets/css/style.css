@@ -1052,7 +1052,14 @@ span {
 }
 
 .footer-link-wrapper {
+    padding-top: 10px;
     width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-link-wrapper {
+      width: 100%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -1063,7 +1070,7 @@ span {
 }
 
 .footer-link .link {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .footer-link .link li {
