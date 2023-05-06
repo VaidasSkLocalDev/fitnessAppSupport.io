@@ -919,6 +919,7 @@ span {
 }
 
 .download-content ul li a.app-store {
+    position: relative;
     margin-right: 28px;
     background-color: #0898e7;
 }
