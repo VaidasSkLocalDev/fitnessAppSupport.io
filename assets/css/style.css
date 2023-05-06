@@ -878,6 +878,12 @@ span {
 
 /* --------- download css ---------- */
 
+@media only screen and (max-width: 768px) {
+    .download-area {
+        position: relative;
+    }
+}
+
 .download-area {
     overflow: hidden;
     background-color: #000000;
